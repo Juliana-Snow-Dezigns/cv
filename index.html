@@ -1,0 +1,175 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!<!DOCTYPE html>
+    <title>Juliana's Personal Site</title>
+    <link rel="stylesheet" type="text/css" href="tables.css">
+</head>
+
+<body>
+  <table>
+    <tr>
+      <!--
+Relative path
+
+A relative path is always relative to the root of the document, so if your html is at the same level of the directory, you'd need to start the path directly with your picture's directory name:
+
+"pictures/picture.png"
+
+Double-dot-slash (../)
+
+In this case, a double dot (..) points to the upper directory and likewise, the slash (/) gives you access to it. So if you wanted to access a picture that is on a directory one level above of the current directory your document is, your URL would look like this:
+
+"../picture.png"
+
+
+
+      -->
+      <td><img src="../../../Assets/designerJulie-modified.png" alt="Juliana's profile image">
+      </td>
+      <td>
+        <h1>Juliana Snow</h1>
+        <p>
+          <em>Founder of <strong><a href="https://julianasnowdezigns.com">Juliana Snow Dezigns</a></strong></em>
+        </p>
+        <p> Full Stack Web Design &amp Development</p>
+      </td>
+
+    </tr>
+    <!--end table row -->
+
+
+  </table>
+  <!--ends table-->
+  <hr>
+  <h3>Skills</h3>
+  <table>
+    <table cellspacing="10">
+      <tr>
+
+        <td>
+          <table>
+            <!-- nested inside td -->
+
+            <tbody>
+              <!-- table row - first thing inside the tbody-->
+              <tr>
+                <td> HTML </td>
+                <td>&nbsp ⭐ ⭐ ⭐ ⭐</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>&nbsp ⭐ ⭐ ⭐ ⭐</td>
+              </tr>
+              <tr>
+                <td ">Javascript</td>
+              <td >&nbsp ⭐ </td>
+            </tr>
+            <tr>
+              <td >Wordpress</td>
+              <td>&nbsp ⭐ ⭐ ⭐ ⭐ ⭐ </td>
+            </tr>
+          
+                <!-- table data - takes place of the " ul" -->
+
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <table>
+            <!-- nested table, inside table data (td)-->
+
+            <tbody>
+              <tr>
+                <td>Bootstrap</td>
+                <td>&nbsp ⭐ ⭐ ⭐ ⭐ </td>
+
+              </tr>
+              <!--end table row -->
+              <tr>
+                <td>Cyber Security Bootcamp</td>
+                <td>&nbsp ⭐ ⭐ </td>
+              </tr>
+              <tr>
+                <td>PHP</td>
+                <td>&nbsp ⭐ </td>
+              </tr>
+
+              <tr>
+                <td>Node JS</td>
+                <td>&nbsp ⭐ </td>
+              </tr>
+            </tbody>
+            <!--end tbody-->
+          </table>
+          <!--ends table-->
+        </td>
+      </tr>
+
+    </table>
+    <hr>
+
+
+
+
+
+
+    <!--table is sorted with the head, body, and footer -->
+    <table>
+      <!--always start and end with the "table" tag -->
+      <thead>
+        <!-- Header of the table, going across (horizontal)-->
+        <tr>
+          <!-- Table Row - always put your th, td, -->
+          <th class="gray">Dates</th>
+          <!--table header elements -->
+          <th class="gray">Education</th>
+        </tr>
+        <!--end table row -->
+      </thead>
+      <tbody>
+        <!--body of the table -->
+        <tr>
+          <td>2-28-22</td>
+          <!--table data -->
+          <td>Currently working on Cyber Security classes through <a href="https://udemy.com" target="new" />Udemy</a>
+          </td>
+        </tr>
+        <!--end table row -->
+        <tr class="gray">
+          <td>3-1-22</td>
+          <td>Web Development Bootcamp 2022: <a href="https://udemy.com" target="new" />Udemy</a> </td>
+        </tr>
+        <!--end table row -->
+        <tr>
+
+          <td>2013</td>
+          <!--table data -->
+          <td>Graphic Design &amp Web Design Classes with <a href="https://Lynda.com" target="new" />Lynda.com</a></td>
+        </tr>
+        <!--end table row -->
+        <tr class="gray">
+          <td>3-1-22</td>
+          <td>Hennepin Technical College | Graduated 2013 </td>
+        </tr>
+        <!--end table row -->
+
+      </tbody>
+      <!--end tbody -->
+      <tfoot>
+        <!--end tfoot-->
+
+
+      </tfoot>
+    </table>
+    <hr>
+    <footer>
+      <p>©2022 Juliana Snow | All rights reserved</p>
+    </footer>
+    <!--end footer-->
+</body>
+<!--end body-->
+
+</html>
+<!--end html-->

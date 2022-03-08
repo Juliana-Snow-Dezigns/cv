@@ -1,0 +1,9 @@
+// hello world
+ 
+ table {font-family: cursive; font-weight: bold; font-size: 16pt; border: "1";}
+ th.gray {background-color: #ccc; margin:  1em; padding: 1em;}
+ th{margin:  1em; padding: 1em;}
+ tr {padding: 5em; font-family: Helvetica Neue; font-weight: 300; font-size: 14pt; border: 1px; }
+.gray {background-color: #ccc; border: 1px;}
+.skills {margin: 5em; padding: 1em; }
+ td {font-family: Helvetica Neue;}
